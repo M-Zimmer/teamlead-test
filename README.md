@@ -1,15 +1,22 @@
 # teamlead-test
 
-## Project setup
+## 1. Установить необходимые модули для проекта
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## 2. Запустить frontend сервер
 ```
 npm run serve
 ```
 
+## 3. Запустить backend сервер
+```
+node ./src/server.js
+```
+Frontend запущен на http://localhost:8080, backend на http://localhost:3000
+***
+## Прочие возможности:
 ### Compiles and minifies for production
 ```
 npm run build
